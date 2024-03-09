@@ -17,3 +17,4 @@ services:
     environment:
       - GF_DASHBOARDS_DEFAULT_HOME_DASHBOARD_PATH=/home/mustafa/testorg-image-panel/provisioning/dashboards/home.json
       - GF_INSTALL_PLUGINS=marcusolsson-static-datasource
+      - GF_USERS_DEFAULT_THEME=light
